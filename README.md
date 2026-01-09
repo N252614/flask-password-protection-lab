@@ -203,3 +203,26 @@ CodeGrade will use the same test suite as the test suite included.
 
 Once all tests are passing, commit and push your work using `git` to submit to 
 CodeGrade through Canvas.
+
+
+# Flask Password Protection Lab
+
+This project implements a secure authentication system using Flask.
+
+## Features
+- Password hashing with Flask-Bcrypt
+- User signup and login
+- Session-based authentication
+- Secure logout
+- Session validation
+
+## Endpoints
+- POST /signup
+- POST /login
+- GET /check_session
+- DELETE /logout
+
+## Testing
+All backend tests pass successfully.
+
+![Screenshot](./screenshot.png)
